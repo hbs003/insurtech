@@ -1,2 +1,533 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Zeta Template Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+  </head>
+
+  <body>
+
+    <div class="super_container">
+
+      <!-- Header -->
+
+      <header class="header d-flex flex-row justify-content-end align-items-center">
+
+        <!-- Logo -->
+        <div class="logo_container mr-auto">
+          <div class="logo">
+            <a href="/"><span>c</span>convexitY<span>.</span></a>
+          </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="main_nav justify-self-end">
+          <ul class="nav_items">
+            <li class="active"><a href="#"><span>home</span></a></li>
+            <li><a href="/services"><span>Modelo</span></a></li>
+            <li><a href="/contato"><span>contato</span></a></li>
+          </ul>
+        </nav>
+
+        <!-- Hamburger -->
+        <div class="hamburger_container">
+          <span class="hamburger_text">Menu</span>
+          <span class="hamburger_icon"></span>
+        </div>
+
+      </header>
+
+      <!-- Menu -->
+
+      <div class="fs_menu_overlay"></div>
+      <div class="fs_menu_container">
+        <div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
+        <nav class="fs_menu_nav">
+          <ul class="fs_menu_list">
+            <li><a href="#"><span><span>H</span>Home</span></a></li>
+            <li><a href="/services"><span><span>M</span>Modelo</span></a></li>
+            <li><a href="/contato"><span><span>C</span>Contato</span></a></li>
+          </ul>
+        </nav>
+        <div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
+          <ul class="fs_social">
+            <li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Hero Slider -->
+
+      <div class="home">
+        <div class="hero_slider_container slider_prlx">
+          <div class="owl-carousel owl-theme hero_slider">
+
+            <!-- Slider Item -->
+            <div class="owl-item main_slider_item">
+              <div class="main_slider_item_bg" style="background-image:url(images/main_slider_1.jpg)"></div>
+              <div class="main_slider_shapes"><img src="images/main_slider_shapes.png" alt="" style="width: 100% !important;"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col slider_content_col">
+                    <div class="main_slider_content">
+                      <h1>Criamos valor </h1>
+                      <h1>para sua <span>empresa</span>.</h1>
+                      <p>Conheça aqui o nosso modelo inovador que vai permitir que você nos venda um ativo que atualmente não traz nenhum retorno para o seu negócio.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider Item -->
+            <div class="owl-item main_slider_item">
+              <div class="main_slider_item_bg" style="background-image:url(images/main_slider_1.jpg)"></div>
+              <div class="main_slider_shapes"><img src="images/main_slider_shapes.png" alt="" style="width: 100% !important;"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col slider_content_col">
+                    <div class="main_slider_content">
+                      <h1>Venda </h1>
+                      <h1>um <span>ativo</span> sem valor.</h1>
+                      <p>Atualmente a sua empresa entrega gratuitamente o direito de preferência da gestão da sua carteira de seguros para alguma corretora. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider Item -->
+            <div class="owl-item main_slider_item">
+              <div class="main_slider_item_bg" style="background-image:url(images/main_slider_1.jpg)"></div>
+              <div class="main_slider_shapes"><img src="images/main_slider_shapes.png" alt="" style="width: 100% !important;"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col slider_content_col">
+                    <div class="main_slider_content">
+                      <h1>Reduza </h1>
+                      <h1>seus <span>custos</span> com seguros.</h1>
+                      <p>Ao vender o direito de preferência na gestão da sua carteira para a nossa empresa, você não somente cria uma nova fonte de receita como também passa a contar com um novo player na disputa pela execução dos seus seguros com condições comerciais muito favoráveis. Sua empresa ganha duas vezes neste modelo. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Dots -->
+
+          <div class="main_slider_dots">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <ul id="main_slider_custom_dots" class="main_slider_custom_dots">
+                    <li class="main_slider_custom_dot active">01.</li>
+                    <li class="main_slider_custom_dot">02.</li>
+                    <li class="main_slider_custom_dot">03.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Dots -->
+
+          <div class="main_slider_nav_left main_slider_nav">
+            <i class="fas fa-chevron-left trans_300"></i>
+          </div>
+
+          <div class="main_slider_nav_right main_slider_nav">
+            <i class="fas fa-chevron-right trans_300"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="home_social_container d-flex flex-row justify-content-end align-items-center">
+        <ul class="home_social">
+          <li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+          <li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+          <li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+        </ul>
+      </div>
+
+      <!-- Features -->
+
+      <div class="features">
+        <div class="container">
+          <div class="row align-items-end">
+
+            <!-- Features Item -->
+            <div class="col-lg-4 features_col">
+              <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
+                <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                <div class="icon_container d-flex flex-column justify-content-end">
+                  <img src="images/icon_1.svg" alt="">
+                </div>
+                <h3>gestão de apólices</h3>
+                <p>Atualmente a nossa corretora faz a gestão de mais de 5000 apólices de seguro em todo o território nacional.</p>
+              </div>
+            </div>
+
+            <!-- Features Item -->
+            <div class="col-lg-4 features_col">
+              <div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+                <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                <div class="icon_container d-flex flex-column justify-content-end">
+                  <img src="images/icon_2.svg" alt="">
+                </div>
+                <h3>foco no atendimento</h3>
+                <p>Atendimento diferenciado assessorando os clientes em todas as etapas do processo de contratação e utilização de apólices de seguros.</p>
+              </div>
+            </div>
+
+            <!-- Features Item -->
+            <div class="col-lg-4 features_col">
+              <div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+                <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                <div class="icon_container d-flex flex-column justify-content-end">
+                  <img src="images/icon_3.svg" alt="">
+                </div>
+                <h3>larga experiência</h3>
+                <p>Fundada em 2002 por profissionais com larga experiência no mercado segurador em diversos ramos de atuação.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- About -->
+
+      <div class="about prlx_parent">
+        <!-- https://unsplash.com/@nativemello -->
+        <div class="about_background prlx" style="background-image:url(images/about_background.jpg)"></div>
+        <div class="about_shapes"><img src="images/about_shapes.png" alt=""></div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 text-center section_title">
+              <h2>sobre o nosso projeto<span>c</span></h2>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="about_text">
+                <p>Propomos a criação de valor para as Empresas a partir de um custo consolidado, com o modelo inovador de negociação do direito de preferência na gestão da carteira de seguros. A Franqueira Seguros dará amplo suporte à empresa na definição das coberturas e condições de contratação de todos os seguros da carteira da empresa. A empresa poderá realizar cotações com outras corretoras/seguradoras, os contratos deverão ser fechados através da Franqueira somente quando for possível igualar ou reduzir as outras propostas recebidas. A Franqueira assegura padrão de atendimento superior a todas as apólice da empresa, principal diferencial competitivo da corretora desde o início das operações.</p>
+                <img src="images/signiture.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="skills_container">
+                <ul class="progress_bar_container col_12 clearfix">
+                  <li class="pb_item">
+                    <div id="skill_1_pbar" class="skill_bars" data-perc="1" data-name="skill_1_pbar"></div>
+                    <h5>excelência no atendimento</h5>
+                  </li>
+                  <li class="pb_item">
+                    <div id="skill_2_pbar" class="skill_bars" data-perc="1" data-name="skill_2_pbar"></div>
+                    <h5>eficácia e eficiência</h5>
+                  </li>
+                  <li class="pb_item">
+                    <div id="skill_3_pbar" class="skill_bars" data-perc="1" data-name="skill_3_pbar"></div>
+                    <h5>valorização da equipe</h5>
+                  </li>
+                  <li class="pb_item">
+                    <div id="skill_4_pbar" class="skill_bars" data-perc="1" data-name="skill_4_pbar"></div>
+                    <h5>ética e transparência</h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Testimonials -->
+
+      <div class="testimonials">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+              <h2>O que falam sobre nós:<span>c</span></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <div class="testimonials_container">
+                <div class="testimonials_container_inner"></div>
+
+                <!-- Testimonials Slider -->
+
+                <div class="owl-carousel owl-theme testimonials_slider">
+
+                  <!-- Testimonials Item -->
+                  <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="testimonials_content">
+                      <div class="test_user_pic"><%= image_tag("israel.jpg", size: "94x94", alt: "israel") %></div>
+                      <div class="test_name">israel salmen</div>
+                      <div class="test_title">CEO do Meliuz</div>
+                      <div class="test_quote">"</div>
+                      <p>Tão logo nos foi apresentado este modelo ficamos bastante impressionados com a ideia. Afinal conseguimos vender um ativo da nossa empresa que antes não nos gerava nenhum retorno. Tenho que destacar que desde o fechamento da parceria temos conseguido reduzir os gastos com seguros da nossa companhia e ao mesmo tempo contado com o excelente atendimento da Franqueira. Recomendo!</p>
+                    </div>
+                  </div>
+
+                  <!-- Testimonials Item -->
+                  <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="testimonials_content">
+                      <div class="test_user_pic"><%= image_tag("yara.jpg", size: "94x94", alt: "yara") %></div>
+                      <div class="test_name">Yara Carvalho</div>
+                      <div class="test_title">CMO GheeMeMore</div>
+                      <div class="test_quote">"</div>
+                      <p>O modelo inovador nos permitiu gerar receita de uma ponta que nos gerava apenas custo. Além da venda do direito de preferência, os custos inerentes a cada apólice abaixaram e tudo com o excelente atendimento do Bernardo e equipe. Estamos muito satisfeitos.</p>
+                    </div>
+                  </div>
+
+                  <!-- Testimonials Item -->
+                  <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="testimonials_content">
+                      <div class="test_user_pic"><img src="images/test_user.jpg" alt="https://unsplash.com/@michaeldam"></div>
+                      <div class="test_name">maria williams</div>
+                      <div class="test_title">Company CEO</div>
+                      <div class="test_quote">"</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, olor sit amet, consectetur adipiscing eli quam tincidunt venen atis ultrices, est libero olor sit amet, consectetur adipiscing eli mattis ante.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Testimonials Slider Navigation -->
+
+            <div class="test_slider_nav test_slider_nav_left d-flex flex-column justify-content-center align-items-center trans_200">
+              <i class="fas fa-chevron-left trans_200"></i>
+            </div>
+
+            <div class="test_slider_nav test_slider_nav_right d-flex flex-column justify-content-center align-items-center trans_200">
+              <i class="fas fa-chevron-right trans_200"></i>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Services -->
+
+      <div class="services prlx_parent">
+        <!-- artist: https://unsplash.com/@nativemello -->
+        <div class="services_background prlx" style="background-image:url(images/services_background.jpg)"></div>
+        <div class="services_shapes"><img src="images/services_shapes.png" alt=""></div>
+
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+              <div class="icon_container d-flex flex-column justify-content-end">
+                <img src="images/icon_1.svg" alt="">
+              </div>
+              <h3>análise da carteira</h3>
+              <p>Análise da carteira da empresa a partir do envio do resumo das apólices contratadas </p>
+            </div>
+
+            <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+              <div class="icon_container d-flex flex-column justify-content-end">
+                <img src="images/icon_2.svg" alt="">
+              </div>
+              <h3>proposta</h3>
+              <p>Elaboração de proposta pelo direito de preferência na gestão da carteira tendo como base os dados informados na etapa anterior.</p>
+            </div>
+
+            <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+              <div class="icon_container d-flex flex-column justify-content-end">
+                <img src="images/icon_3.svg" alt="">
+              </div>
+              <h3>negociação</h3>
+              <p>Negociação das condições comerciais e contratuais para cessão do direto de preferência da gestão da carteira.</p>
+            </div>
+
+            <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+              <div class="icon_container d-flex flex-column justify-content-end">
+                <img src="images/icon_4.svg" alt="">
+              </div>
+              <h3>operação</h3>
+              <p>Negociação das renovações e novas contratações de seguros, garantindo sempre alto padrão de atendimento.</p>
+            </div>
+
+            <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+              <div class="icon_container d-flex flex-column justify-content-end">
+                <img src="images/icon_5.svg" alt="">
+              </div>
+              <h3>consultoria</h3>
+              <p>Utilização do serviço de consultoria da Franqueira Seguros para definição do desenho de condições e coberturas de cada apólice.</p>
+            </div>
+
+            <div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+              <div class="icon_container d-flex flex-column justify-content-end">
+                <img src="images/icon_6.svg" alt="">
+              </div>
+              <h3>economia</h3>
+              <p>Menor custo na contratação de cada apólice, assegurado pela ampla possibilidade de pesquisa no mercado.</p>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col text-center">
+              <div class="button services_button">
+                <a href="services.html" class="d-flex flex-row align-items-center justify-content-center">
+                  discover<img src="images/arrow_right.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clients -->
+
+      <div class="clients">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+              <h2>nossos clientes<span>c</span></h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <p>Esperamos que este seja o primeiro passo para uma longeva parceria entre nossas empresas. A formulação de uma proposta nos termos delineados pelo nosso modelo, por si só, representa um marco no setor e comprova a nossa confiança em desempenhar o nosso papel atendendo ao binômio: qualidade e eficiência. Estamos certos que daqui em diante iremos ter a oportunidade de atendê-los com a atenção e cuidado que almejamos ser atendidos e obviamente sob as melhores condições comerciais do mercado.</p>
+            </div>
+            <div class="col-lg-6">
+              <p>Confiamos em relações de longo prazo e para ser bom para nós tem que ser bom primeiramente para vocês, Clientes. Com a formalização desta parceria um item que representava apenas custos para sua empresa, passará a ser uma nova fonte de receita. Na nossa visão a nova economia caminha para um lado aonde relações comerciais devem ser pautadas pela ética e transparência sempre objetivando ganhos e sinergias para ambos os lados. Essa é a nossa proposta, vamos juntos? </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+
+              <!-- Clients Slider -->
+
+
+              <div class="clients_slider_container">
+                <div class="owl-carousel owl-theme clients_slider">
+
+                  <!-- Slider Item -->
+                  <div class="owl-item clients_item">
+                     <%= image_tag("meliuz.jpg", size: "200x120", alt: "logo meliuz") %>
+                  </div>
+
+                  <!-- Slider Item -->
+                  <div class="owl-item clients_item">
+                    <%= image_tag("ghee.jpeg", size: "200x120", alt: "logo ghee") %>
+                  </div>
+
+                  <!-- Slider Item -->
+                  <div class="owl-item clients_item">
+                    <img src="images/client_3.png" alt="">
+                  </div>
+
+                  <!-- Slider Item -->
+                  <div class="owl-item clients_item">
+                    <img src="images/client_4.png" alt="">
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Contact -->
+
+      <div class="contact prlx_parent">
+        <!-- <div class="contact_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/contact_background.jpg"></div> -->
+        <div class="contact_background prlx" style="background-image: url(images/contact_background.jpg);"></div>
+        <div class="contact_shapes"><img src="images/contact_shape.png" alt=""></div>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
+              <h2>vamos trabalhar juntos?<span>c</span></h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 text-center contact_text">
+              <p>O nosso modelo nasceu com uma clara proposta de valor, provar para os nossos clientes que a melhor forma de valorizá-los é trazendo inovação e colocando nossa pele no jogo. Nosso modelo representa uma moderna e inovadora abordagem que irá reduzir os custos finais das grandes empresas com seguros. Afinal eficiência e eficácia são o norte da nossa ideia. Não deixe de esclarecer qualquer dúvida para que possamos firmar uma longa, longeva e qualificada parceria. Será um prazer atendê-lo.</p>
+              <div class="button contact_button">
+                <a href="/contato" class="d-flex flex-row align-items-center justify-content-center">contato<img src="images/arrow_right.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
+            <div class="col-sm-6 cr text-sm-left text-center">
+              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+            <div class="col-sm-6 text-sm-right text-center">
+              <div class="footer_social_container">
+                <ul class="footer_social">
+                  <li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
+                  <li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+                  <li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+                  <li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap4/popper.js"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/progressbar/progressbar.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+
+</html>
